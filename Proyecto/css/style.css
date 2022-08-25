@@ -1,0 +1,58 @@
+/* Body */
+body {
+    /* font-family: 'eurostile-normal',sans-serif; */
+    font-family: 'Assistant', sans-serif; 
+}
+
+/* Fuentes */
+@font-face {
+    font-family: 'eurostile';
+    src: url('../assets/fonts/eurostile-cufonfonts/eurostile.TTF');
+    font-family: 'eurostile-normal';
+    src: url('../assets/fonts/eurostile-cufonfonts/EuroStyle\ Normal.ttf');
+}
+
+/* Titulos */
+h1, h2,h3 {
+    font-family: 'eurostile',sans-serif;    
+}
+
+/* Imagenes */
+.imgPerfil {
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+/* Hero Sobre mi */
+.heroSobreMi {
+    background-color: #6E08F3;
+    color: #fff;
+    height: 22.5em;
+}
+
+main section h2 {
+    padding: 8px;
+}
+
+
+/* Servicio */
+.iconoServicio {
+    border: 1px solid #5BE9B9;
+    width:  5.5%;
+    height: 5.5%;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #5BE9B9;
+}
+.iconosServicios {
+    border: 1px solid #5BE9B9;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #5BE9B9;
+}
+
+li {
+    list-style-type: none;
+}
